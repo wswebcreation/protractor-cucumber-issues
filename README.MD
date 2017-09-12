@@ -43,7 +43,7 @@ and do a `npm install` after each checkout. To run the tests run `npm test`
 
 ## Outcome:
 
-### `version-3`
+### `version-3-multi`
 ```shell
 > node node_modules/.bin/protractor protractor.conf.js
 

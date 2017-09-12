@@ -1,7 +1,6 @@
 # Logs
 logs
 *.log
-*.json
 
 # Dependency directory
 node_modules
