@@ -43,28 +43,28 @@ and do a `npm install` after each checkout. To run the tests run `npm test`
 
 ## Outcome:
 
-### `version-3-multi`
+### `version-3-cap`
 ```shell
 > node node_modules/.bin/protractor protractor.conf.js
 
-[09:13:14] I/launcher - Running 2 instances of WebDriver
-......[09:13:17] I/testLogger -
+[09:34:00] I/launcher - Running 2 instances of WebDriver
+......[09:34:03] I/testLogger -
 ------------------------------------
 
-[09:13:17] I/testLogger - [chrome #01-1] PID: 59992
+[09:34:03] I/testLogger - [chrome #01-1] PID: 62352
 [chrome #01-1] Specs: /Users/wswebcreation/contributions/protractor-cucumber-issues/test/foo.feature
 [chrome #01-1]
-[chrome #01-1] [09:13:15] I/local - Starting selenium standalone server...
-[chrome #01-1] [09:13:15] I/local - Selenium standalone server started at http://10.236.51.107:64296/wd/hub
+[chrome #01-1] [09:34:01] I/local - Starting selenium standalone server...
+[chrome #01-1] [09:34:01] I/local - Selenium standalone server started at http://10.236.51.107:50358/wd/hub
 [chrome #01-1] ...
 [chrome #01-1]
 [chrome #01-1] 1 scenario (1 passed)
 [chrome #01-1] 3 steps (3 passed)
 [chrome #01-1] 0m00.003s
-[chrome #01-1] [09:13:17] I/local - Shutting down selenium standalone server.
+[chrome #01-1] [09:34:03] I/local - Shutting down selenium standalone server.
 
-[09:13:17] I/testLogger -
+[09:34:03] I/testLogger -
 
-[09:13:17] I/launcher - 1 instance(s) of WebDriver still running
+[09:34:03] I/launcher - 1 instance(s) of WebDriver still running
 
 ```
