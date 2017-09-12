@@ -43,7 +43,7 @@ and do a `npm install` after each checkout. To run the tests run `npm test`
 
 ## Outcome:
 
-### `version-2a`
+### `version-2a-cap`
 ```shell
 > node node_modules/.bin/protractor protractor.conf.js
 
