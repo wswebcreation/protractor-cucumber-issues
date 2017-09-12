@@ -8,7 +8,7 @@ exports.config = {
         require: [
             path.resolve(process.cwd(), './test/**/*steps.js')
         ],
-        format: 'pretty',
+        format: 'json:results.json',
         strict: true
     },
 
@@ -16,12 +16,12 @@ exports.config = {
         path.resolve(process.cwd(), './test/**/*.feature')
     ],
 
-    capabilities: {
+    multiCapabilities: [{
         browserName: 'chrome',
         shardTestFiles: true,
         maxInstances: 2,
         chromeOptions: {
             args: ['disable-infobars']
         }
-    }
+    }]
 };

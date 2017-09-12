@@ -43,57 +43,28 @@ and do a `npm install` after each checkout. To run the tests run `npm test`
 
 ## Outcome:
 
-### `version-2b`
+### `version-3`
 ```shell
 > node node_modules/.bin/protractor protractor.conf.js
 
-[09:04:06] I/launcher - Running 2 instances of WebDriver
-......[09:04:09] I/testLogger -
+[09:13:14] I/launcher - Running 2 instances of WebDriver
+......[09:13:17] I/testLogger -
 ------------------------------------
 
-[09:04:09] I/testLogger - [chrome #01-0] PID: 59195
-[chrome #01-0] Specs: /Users/wswebcreation/contributions/protractor-cucumber-issues/test/bar.feature
-[chrome #01-0]
-[chrome #01-0] [09:04:06] I/local - Starting selenium standalone server...
-[chrome #01-0] [09:04:07] I/local - Selenium standalone server started at http://10.236.51.107:61802/wd/hub
-[chrome #01-0] Feature: Bar until you foo
-[chrome #01-0]
-[chrome #01-0]   Scenario: I want to bar
-[chrome #01-0]   ✔ Given I bar
-[chrome #01-0]   ✔ When I bar it
-[chrome #01-0]   ✔ Then I bar till I foo
-[chrome #01-0]
-[chrome #01-0] 1 scenario (1 passed)
-[chrome #01-0] 3 steps (3 passed)
-[chrome #01-0] 0m00.002s
-[chrome #01-0] [09:04:09] I/local - Shutting down selenium standalone server.
-
-[09:04:09] I/testLogger -
-
-[09:04:09] I/launcher - 1 instance(s) of WebDriver still running
-[09:04:09] I/testLogger -
-------------------------------------
-
-[09:04:09] I/testLogger - [chrome #01-1] PID: 59196
+[09:13:17] I/testLogger - [chrome #01-1] PID: 59992
 [chrome #01-1] Specs: /Users/wswebcreation/contributions/protractor-cucumber-issues/test/foo.feature
 [chrome #01-1]
-[chrome #01-1] [09:04:06] I/local - Starting selenium standalone server...
-[chrome #01-1] [09:04:07] I/local - Selenium standalone server started at http://10.236.51.107:59196/wd/hub
-[chrome #01-1] Feature: Foo until you bar
-[chrome #01-1]
-[chrome #01-1]   Scenario: I want to foo
-[chrome #01-1]   ✔ Given I foo
-[chrome #01-1]   ✔ When I foo it
-[chrome #01-1]   ✔ Then I foo till I bar
+[chrome #01-1] [09:13:15] I/local - Starting selenium standalone server...
+[chrome #01-1] [09:13:15] I/local - Selenium standalone server started at http://10.236.51.107:64296/wd/hub
+[chrome #01-1] ...
 [chrome #01-1]
 [chrome #01-1] 1 scenario (1 passed)
 [chrome #01-1] 3 steps (3 passed)
-[chrome #01-1] 0m00.001s
-[chrome #01-1] [09:04:09] I/local - Shutting down selenium standalone server.
+[chrome #01-1] 0m00.003s
+[chrome #01-1] [09:13:17] I/local - Shutting down selenium standalone server.
 
-[09:04:09] I/testLogger -
+[09:13:17] I/testLogger -
 
-[09:04:09] I/launcher - 0 instance(s) of WebDriver still running
-[09:04:09] I/launcher - chrome #01-0 passed
-[09:04:09] I/launcher - chrome #01-1 passed
+[09:13:17] I/launcher - 1 instance(s) of WebDriver still running
+
 ```

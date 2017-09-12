@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/wswebcreation/protractor-cucumber-issues#readme",
   "devDependencies": {
-    "cucumber": "2.3.1",
+    "cucumber": "3.0.1",
     "protractor": "^5.1.2",
     "protractor-cucumber-framework": "4.0.4"
   }
