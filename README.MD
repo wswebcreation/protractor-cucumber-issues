@@ -43,19 +43,19 @@ and do a `npm install` after each checkout. To run the tests run `npm test`
 
 ## Outcome:
 
-### `version-2a-cap`
+### `version-2a-multi`
 ```shell
 > node node_modules/.bin/protractor protractor.conf.js
 
-[08:57:46] I/launcher - Running 2 instances of WebDriver
-......[08:57:48] I/testLogger -
+[09:22:34] I/launcher - Running 2 instances of WebDriver
+......[09:22:37] I/testLogger -
 ------------------------------------
 
-[08:57:48] I/testLogger - [chrome #01-0] PID: 58752
+[09:22:37] I/testLogger - [chrome #01-0] PID: 61069
 [chrome #01-0] Specs: /Users/wswebcreation/contributions/protractor-cucumber-issues/test/bar.feature
 [chrome #01-0]
-[chrome #01-0] [08:57:46] I/local - Starting selenium standalone server...
-[chrome #01-0] [08:57:47] I/local - Selenium standalone server started at http://10.236.51.107:52209/wd/hub
+[chrome #01-0] [09:22:34] I/local - Starting selenium standalone server...
+[chrome #01-0] [09:22:35] I/local - Selenium standalone server started at http://10.236.51.107:55230/wd/hub
 [chrome #01-0] Feature: Bar until you foo
 [chrome #01-0]
 [chrome #01-0]   Scenario: I want to bar
@@ -65,20 +65,20 @@ and do a `npm install` after each checkout. To run the tests run `npm test`
 [chrome #01-0]
 [chrome #01-0] 1 scenario (1 passed)
 [chrome #01-0] 3 steps (3 passed)
-[chrome #01-0] 0m00.004s
-[chrome #01-0] [08:57:48] I/local - Shutting down selenium standalone server.
+[chrome #01-0] 0m00.002s
+[chrome #01-0] [09:22:37] I/local - Shutting down selenium standalone server.
 
-[08:57:48] I/testLogger -
+[09:22:37] I/testLogger -
 
-[08:57:48] I/launcher - 1 instance(s) of WebDriver still running
-[08:57:48] I/testLogger -
+[09:22:37] I/launcher - 1 instance(s) of WebDriver still running
+[09:22:37] I/testLogger -
 ------------------------------------
 
-[08:57:48] I/testLogger - [chrome #01-1] PID: 58753
+[09:22:37] I/testLogger - [chrome #01-1] PID: 61070
 [chrome #01-1] Specs: /Users/wswebcreation/contributions/protractor-cucumber-issues/test/foo.feature
 [chrome #01-1]
-[chrome #01-1] [08:57:46] I/local - Starting selenium standalone server...
-[chrome #01-1] [08:57:47] I/local - Selenium standalone server started at http://10.236.51.107:58762/wd/hub
+[chrome #01-1] [09:22:34] I/local - Starting selenium standalone server...
+[chrome #01-1] [09:22:35] I/local - Selenium standalone server started at http://10.236.51.107:61716/wd/hub
 [chrome #01-1] Feature: Foo until you bar
 [chrome #01-1]
 [chrome #01-1]   Scenario: I want to foo
@@ -89,11 +89,11 @@ and do a `npm install` after each checkout. To run the tests run `npm test`
 [chrome #01-1] 1 scenario (1 passed)
 [chrome #01-1] 3 steps (3 passed)
 [chrome #01-1] 0m00.002s
-[chrome #01-1] [08:57:48] I/local - Shutting down selenium standalone server.
+[chrome #01-1] [09:22:37] I/local - Shutting down selenium standalone server.
 
-[08:57:48] I/testLogger -
+[09:22:37] I/testLogger -
 
-[08:57:48] I/launcher - 0 instance(s) of WebDriver still running
-[08:57:48] I/launcher - chrome #01-0 passed
-[08:57:48] I/launcher - chrome #01-1 passed
+[09:22:37] I/launcher - 0 instance(s) of WebDriver still running
+[09:22:37] I/launcher - chrome #01-0 passed
+[09:22:37] I/launcher - chrome #01-1 passed
 ```
