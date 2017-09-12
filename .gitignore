@@ -1,0 +1,14 @@
+# Logs
+logs
+*.log
+
+# Dependency directory
+node_modules
+
+*.DS_Store
+*.xml
+.settings
+downloads
+*~
+.idea
+.vscode
